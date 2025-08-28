@@ -36,3 +36,11 @@ if(numero > 0) {
             console.log(numero);
             numero++;
         }*/
+
+    let nota = parseInt(Math.random() * 1000 +1);
+
+    if(nota >= 500) {
+        console.log(`Aprovado com a nota ${nota}`);
+    } else {
+        console.log(`Reprovado com a nota ${nota}`);
+    }
